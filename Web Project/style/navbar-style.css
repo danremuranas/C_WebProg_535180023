@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
 @font-face {
   font-family: JosefinSans;
-  src: url(../font/JosefinSans-BoldItalic.ttf);
+  src: url(../font/JosefinSans-Bold.ttf);
 }
 * {
   box-sizing: border-box;
@@ -23,12 +23,16 @@ button {
   text-decoration: none;
 }
 
+.iflogo{
+  max-block-size: 40px;
+}
+
 .logo {
   cursor: pointer;
   font-family: JosefinSans;
-  font-size: 32px;
+  font-size: 24px;
   font-weight: 700;
-  padding-left: 40px;
+  padding-left: 10px;
 }
 
 .cta button {
@@ -103,6 +107,10 @@ body {
 
 .wrap {
   height: 200%;
+}
+
+.navbar{
+  padding: 10px 30px;
 }
 
 .navbar-fixed {
